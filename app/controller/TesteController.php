@@ -1,11 +1,13 @@
-<?php 
+<?php
 
 namespace app\controller;
 
-class TesteController 
+use app\core\Controller;
+
+class TesteController extends Controller
 {
     public function teste()
     {
-        return ['name' => 'Jorge'];
+        $this->teste();
     }
 }
