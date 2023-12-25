@@ -6,7 +6,9 @@
             "name": "Jorge Ramos <dev-jorgeramos@gmail.com>"
         }
     ],
-    "require": {},
+    "require": {
+        "twig/twig": "^3.0"
+    },
     "autoload": {
         "psr-4": {
             "app\\": "app/"
