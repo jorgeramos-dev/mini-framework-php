@@ -1,0 +1,15 @@
+{
+    "name": "jorgeramos-dev/mini-framework-php",
+    "description": "Mini framework php",
+    "autoload": {
+        "psr-4": {
+            "JorgeramosDev\\MiniFrameworkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Ramos <dev-jorgeramos@gmail.com>"
+        }
+    ],
+    "require": {}
+}
